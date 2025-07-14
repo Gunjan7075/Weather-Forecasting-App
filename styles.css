@@ -48,7 +48,7 @@ nav input {
 
 nav button {
   padding: 10px 20px;
-  background: #2196F3;
+  background: #af731f;
   color: white;
   border: none;
   border-radius: 10px; 
@@ -57,7 +57,7 @@ nav button {
 }
 
 nav button:hover {
-  background-color: #1976D2;
+  background-color: #af731f;
   transform: scale(1.05);
 }
 
@@ -71,4 +71,50 @@ nav button:hover {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.weatherCard {
+  border: 1px solid #ccc;
+  margin-bottom: 20px; 
+  padding: 20px;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.weatherCard img {
+  margin-right: 10px;
+}
+
+.weatherCard:hover {
+ transform: scale(1.05);
+}
+
+
+.weatherCard h3 {
+  margin: 0;
+  font-size: 20px; 
+  font-weight: bold;
+}
+
+.weatherCard p {
+  margin: 5px 0;
+}
+
+.container button {
+  padding: 15px 30px; 
+  background: #e0f7fa;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+
+
+
+
+
 
